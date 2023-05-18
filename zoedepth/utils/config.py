@@ -110,6 +110,7 @@ DATASETS_CONFIG = {
         "max_depth_eval": 10,
         "min_depth_diff": -10,
         "max_depth_diff": 10,
+        # we will try and modify this
 
         "do_random_rotate": True,
         "degree": 1.0,
