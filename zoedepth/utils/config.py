@@ -98,19 +98,19 @@ DATASETS_CONFIG = {
         "avoid_boundary": False,
         "min_depth": 1e-3,   # originally 0.1
         "max_depth": 10,
-        "data_path": os.path.join(HOME_DIR, "shortcuts/datasets/nyu_depth_v2/sync/"),
-        "gt_path": os.path.join(HOME_DIR, "shortcuts/datasets/nyu_depth_v2/sync/"),
-        "filenames_file": "./train_test_inputs/nyudepthv2_train_files_with_gt.txt",
+        "data_path": "./out_dataset/train/",
+        "gt_path": "./out_dataset/train/",
+        "filenames_file": "./our_dataset/train_files_with_gt.txt",
         "input_height": 480,
         "input_width": 640,
-        "data_path_eval": os.path.join(HOME_DIR, "shortcuts/datasets/nyu_depth_v2/official_splits/test/"),
-        "gt_path_eval": os.path.join(HOME_DIR, "shortcuts/datasets/nyu_depth_v2/official_splits/test/"),
-        "filenames_file_eval": "./train_test_inputs/nyudepthv2_test_files_with_gt.txt",
+        "data_path_eval": "./out_dataset/test/",
+        "gt_path_eval": "./out_dataset/test/"),
+        "filenames_file_eval": "./our_dataset/test_files_with_gt.txt",
         "min_depth_eval": 1e-3,
         "max_depth_eval": 10,
         "min_depth_diff": -10,
         "max_depth_diff": 10,
-        # we will try and modify this
+        # we will modify this
 
         "do_random_rotate": True,
         "degree": 1.0,
