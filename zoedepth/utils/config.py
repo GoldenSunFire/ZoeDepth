@@ -104,7 +104,7 @@ DATASETS_CONFIG = {
         "input_height": 480,
         "input_width": 640,
         "data_path_eval": "./out_dataset/test/",
-        "gt_path_eval": "./out_dataset/test/"),
+        "gt_path_eval": "./out_dataset/test/",
         "filenames_file_eval": "./our_dataset/test_files_with_gt.txt",
         "min_depth_eval": 1e-3,
         "max_depth_eval": 10,
