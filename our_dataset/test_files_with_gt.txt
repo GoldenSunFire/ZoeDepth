@@ -1,1 +1,3 @@
-
+1_raw.png 1_gt.png 518.8579
+2_raw.png 2_gt.png 518.8579
+3_raw.png 3_gt.png 518.8579
