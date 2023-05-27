@@ -1,1 +1,10 @@
-
+0_rgb.png 0_gt.png 518.8579
+1_rgb.png 1_gt.png 518.8579
+2_rgb.png 2_gt.png 518.8579
+3_rgb.png 3_gt.png 518.8579
+4_rgb.png 4_gt.png 518.8579
+5_rgb.png 5_gt.png 518.8579
+6_rgb.png 6_gt.png 518.8579
+7_rgb.png 7_gt.png 518.8579
+8_rgb.png 8_gt.png 518.8579
+9_rgb.png 9_gt.png 518.8579
