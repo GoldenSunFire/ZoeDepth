@@ -139,6 +139,18 @@ DATASETS_CONFIG = {
         "max_depth_eval": 8,
         "min_depth": 1e-3,
         "max_depth": 10
+    },  
+    "tlsrgbd": {
+        "dataset": "sunrgbd",
+        "sunrgbd_root": os.path.join(HOME_DIR, "./Our_dataset/train/"),
+        "filename": "./Our_dataset/train_files_with_gt.txt",
+        "eigen_crop": True,
+        "garg_crop": False,
+        "do_kb_crop": False,
+        "min_depth_eval": 0,
+        "max_depth_eval": 8,
+        "min_depth": 1e-3,
+        "max_depth": 10
     },
     "diml_indoor": {
         "dataset": "diml_indoor",
