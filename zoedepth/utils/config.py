@@ -242,7 +242,7 @@ DATASETS_CONFIG = {
     },
 }
 
-ALL_INDOOR = ["nyu", "ibims", "sunrgbd", "diode_indoor", "hypersim_test"]
+ALL_INDOOR = ["nyu", "ibims", "sunrgbd", "tlsrgbd", "diode_indoor", "hypersim_test"]
 ALL_OUTDOOR = ["kitti", "diml_outdoor", "diode_outdoor",  "vkitti2", "ddad"]
 ALL_EVAL_DATASETS = ALL_INDOOR + ALL_OUTDOOR
 
