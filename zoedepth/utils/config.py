@@ -142,8 +142,8 @@ DATASETS_CONFIG = {
     },  
     "tlsrgbd": {
         "dataset": "tlsrgbd",
-        "sunrgbd_root": os.path.join(HOME_DIR, "./Our_dataset/train/"),
-        "filename": "./Our_dataset/train_files_with_gt.txt",
+        "sunrgbd_root": os.path.join(HOME_DIR, "./our_dataset/train/"),
+        "filename": "./our_dataset/train_files_with_gt.txt",
         "eigen_crop": True,
         "garg_crop": False,
         "do_kb_crop": False,
