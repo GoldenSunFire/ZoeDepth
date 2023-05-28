@@ -47,6 +47,7 @@ from .diode import get_diode_loader
 from .hypersim import get_hypersim_loader
 from .ibims import get_ibims_loader
 from .sun_rgbd_loader import get_sunrgbd_loader
+from .tlsrgbd import get_tlsrgbd_loader
 from .vkitti import get_vkitti_loader
 from .vkitti2 import get_vkitti2_loader
 
@@ -88,6 +89,10 @@ class DepthDataLoader(object):
         if config.dataset == 'sunrgbd':
             self.data = get_sunrgbd_loader(
                 data_dir_root=config.sunrgbd_root, batch_size=1, num_workers=1)
+            return
+        if config.dataset == 'tlsrgbd':
+            self.data = get_tlsrgbd_loader(
+                data_dir_root=config.tlsrgbd_root, batch_size=1, num_workers=1)
             return
 
         if config.dataset == 'diml_indoor':
