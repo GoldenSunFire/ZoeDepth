@@ -98,8 +98,8 @@ DATASETS_CONFIG = {
         "avoid_boundary": False,
         "min_depth": 1e-3,   # originally 0.1
         "max_depth": 10,
-        "data_path": "./our_dataset/train/",
-        "gt_path": "./our_dataset/train/",
+        "data_path": "./our_dataset/train/indoor/",
+        "gt_path": "./our_dataset/train/indoor/",
         "filenames_file": "./our_dataset/train_files_with_gt.txt",
         "input_height": 480,
         "input_width": 640,
